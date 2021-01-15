@@ -1,5 +1,5 @@
-namespace DIO.Series
-{
+namespace Avanade.CRUD
+{ 
 	public enum Genero
 	{
 		Acao = 1,

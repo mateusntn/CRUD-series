@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "DIO.Series/1.0.0": {
+      "Avanade.CRUD/1.0.0": {
         "runtime": {
-          "DIO.Series.dll": {}
+          "Avanade.CRUD.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "DIO.Series/1.0.0": {
+    "Avanade.CRUD/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

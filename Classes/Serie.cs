@@ -1,6 +1,6 @@
 using System;
 
-namespace DIO.Series
+namespace Avanade.CRUD
 {
     public class Serie : EntidadeBase
     {

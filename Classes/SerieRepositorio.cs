@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using DIO.Series.Interfaces;
+using Avanade.CRUD.Interfaces;
 
-namespace DIO.Series
+namespace Avanade.CRUD
 {
 	public class SerieRepositorio : IRepositorio<Serie>
 	{

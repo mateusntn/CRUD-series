@@ -1,4 +1,4 @@
-namespace DIO.Series
+namespace Avanade.CRUD
 {
     public abstract class EntidadeBase
     {

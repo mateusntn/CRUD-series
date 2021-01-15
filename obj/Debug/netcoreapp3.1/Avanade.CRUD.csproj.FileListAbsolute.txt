@@ -1,0 +1,13 @@
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\bin\Debug\netcoreapp3.1\Avanade.CRUD.exe
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\bin\Debug\netcoreapp3.1\Avanade.CRUD.deps.json
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\bin\Debug\netcoreapp3.1\Avanade.CRUD.runtimeconfig.json
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\bin\Debug\netcoreapp3.1\Avanade.CRUD.runtimeconfig.dev.json
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\bin\Debug\netcoreapp3.1\Avanade.CRUD.dll
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\bin\Debug\netcoreapp3.1\Avanade.CRUD.pdb
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\obj\Debug\netcoreapp3.1\Avanade.CRUD.csprojAssemblyReference.cache
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\obj\Debug\netcoreapp3.1\Avanade.CRUD.AssemblyInfoInputs.cache
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\obj\Debug\netcoreapp3.1\Avanade.CRUD.AssemblyInfo.cs
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\obj\Debug\netcoreapp3.1\Avanade.CRUD.csproj.CoreCompileInputs.cache
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\obj\Debug\netcoreapp3.1\Avanade.CRUD.dll
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\obj\Debug\netcoreapp3.1\Avanade.CRUD.pdb
+C:\Users\mateu\Desktop\workspace\DIO\CRUDseries\obj\Debug\netcoreapp3.1\Avanade.CRUD.genruntimeconfig.cache

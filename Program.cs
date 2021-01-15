@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DIO.Series
+namespace Avanade.CRUD
 {
     class Program
     {
@@ -48,7 +48,16 @@ namespace DIO.Series
 			Console.Write("Digite o id da série: ");
 			int indiceSerie = int.Parse(Console.ReadLine());
 
+			Console.WriteLine("Tem certeza que deseja excluir está série? Digite 1 para prosseguir com a exclusão, ou 2 para cancelar. ");
+			int confirm = int.Parse(Console.ReadLine());
+			if (confirm == 2)
+            {
+				return;
+            } 
+
+
 			repositorio.Exclui(indiceSerie);
+			Console.WriteLine("Série excluída com sucesso");
 		}
 
         private static void VisualizarSerie()
@@ -66,14 +75,13 @@ namespace DIO.Series
 			Console.Write("Digite o id da série: ");
 			int indiceSerie = int.Parse(Console.ReadLine());
 
-			// https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
-			// https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-3.1
 			foreach (int i in Enum.GetValues(typeof(Genero)))
 			{
 				Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
 			}
 			Console.Write("Digite o gênero entre as opções acima: ");
 			int entradaGenero = int.Parse(Console.ReadLine());
+			entradaGenero = ValidaEnum(entradaGenero);
 
 			Console.Write("Digite o Título da Série: ");
 			string entradaTitulo = Console.ReadLine();
@@ -116,14 +124,13 @@ namespace DIO.Series
 		{
 			Console.WriteLine("Inserir nova série");
 
-			// https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
-			// https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-3.1
 			foreach (int i in Enum.GetValues(typeof(Genero)))
 			{
 				Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
 			}
 			Console.Write("Digite o gênero entre as opções acima: ");
 			int entradaGenero = int.Parse(Console.ReadLine());
+			entradaGenero = ValidaEnum(entradaGenero);
 
 			Console.Write("Digite o Título da Série: ");
 			string entradaTitulo = Console.ReadLine();
@@ -142,6 +149,19 @@ namespace DIO.Series
 
 			repositorio.Insere(novaSerie);
 		}
+
+		private static int ValidaEnum(int entradaGenero)
+        {
+			while (entradaGenero < 0 || entradaGenero > 13)
+            {
+				Console.WriteLine("O valor digitado não está de acordo com as opções acima.");
+				Console.Write("Digite uma opção válida: ");
+				entradaGenero = int.Parse(Console.ReadLine());
+            }
+
+			return entradaGenero;
+
+        }
 
         private static string ObterOpcaoUsuario()
 		{
